@@ -1,0 +1,102 @@
+body {
+  font-size: 20px;
+  font-family: Lucida Console;
+  background-color: #E9F3DA;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+nav {
+  background-color: #4A905F;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #AED96F;
+}
+.logo {
+  padding: 5px;
+  margin: 5px;
+  background-color: #AED96F;
+  border: 3px dashed #2D8848;
+}
+.nava {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  border: 3px dashed white;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #49A565;
+}
+.nava:hover {
+  text-decoration: underline;
+  background-color: #60BC7B;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.algo {
+  color: #44657E;
+  background-color: #5D89AB;
+  padding: 3px;
+  border: 1px solid #5D89AB;
+  border-radius: 7px;
+  opacity: 0.7;
+}
+.algo:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.inst {
+  color: #44657E;
+  background-color: #5D89AB;
+  padding: 3px;
+  border: 1px solid #5D89AB;
+  border-radius: 7px;
+  opacity: 0.7;
+}
+.inst:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.headerinfo {
+  background-color: #E7CA76;
+  padding: 5px;
+  margin: 35px 15px 15px 15px;
+  border: 5px inset #B8993D;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #857A59;
+}
+.logo2 {
+  margin-right: 10px;
+}
+.underline {
+  text-decoration: underline;
+  color: #AED96F;
+}
+.maininfo {
+  display: flex;
+  align-items: center;
+  color: #E7CA76;
+  background-color: #6ABC83;
+  padding: 15px;
+  border: 1px solid #6ABC83;
+  border-radius: 100px;
+  margin-top: 55px;
+}
+.product{
+  margin: 45px 15px 15px 15px;
+}
+.product1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px dashed #DCE575;
+  background-color: white;
+  flex-wrap: wrap;
+  width: 300px;
+}
